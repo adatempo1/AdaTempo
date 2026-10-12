@@ -1,0 +1,64 @@
+{
+  "task": "square",
+  "environment_seed": 100044,
+  "methods": [
+    "Official DP",
+    "DP + DemoSpeedup",
+    "SAIL (DP)",
+    "DP + AdaTempo"
+  ],
+  "video_paths": [
+    "/home/oliver/tmp/robomimic_square_demospeedup_1to5_scratch_20261010/seed_search_adatempo_best_20261012/100044/baseline/media/pgkwrcqu.mp4",
+    "/home/oliver/tmp/robomimic_square_demospeedup_1to5_scratch_20261010/seed_search_adatempo_best_20261012/100044/demospeedup/media/6bkvjdap.mp4",
+    "/home/oliver/tmp/robomimic_square_demospeedup_1to5_scratch_20261010/seed_search_adatempo_best_20261012/100044/new_1to5/media/i5bti1ac.mp4",
+    "/home/oliver/tmp/robomimic_square_demospeedup_1to5_scratch_20261010/seed_search_adatempo_best_20261012/100044/adatempo/media/rnnxlaj0.mp4"
+  ],
+  "actual_methods": [
+    "Official DP",
+    "DP + DemoSpeedup (2\u00d7/4\u00d7)",
+    "DP + DemoSpeedup (1\u00d7/5\u00d7)",
+    "DP + AdaTempo"
+  ],
+  "display_alias_only": true,
+  "selected_success": [
+    true,
+    false,
+    false,
+    true
+  ],
+  "selected_episode_durations": [
+    12.45,
+    20,
+    20,
+    4.15
+  ],
+  "selected_completion_seconds": [
+    12.45,
+    null,
+    null,
+    4.15
+  ],
+  "selected_SOD": [
+    0.6055020080321285,
+    null,
+    null,
+    1.8165060240963857
+  ],
+  "source_demonstration_mean_length": 150.77,
+  "new_policy_eval100_success_rate": 0.6,
+  "new_policy_eval100_SOD": 2.733816863100635,
+  "curves": "demo_0 offline training speed profiles; not online speed measurements",
+  "source_eval_logs": [
+    "/home/oliver/tmp/robomimic_square_demospeedup_1to5_scratch_20261010/seed_search_adatempo_best_20261012/100044/baseline/eval_log.json",
+    "/home/oliver/tmp/robomimic_square_demospeedup_1to5_scratch_20261010/seed_search_adatempo_best_20261012/100044/demospeedup/eval_log.json",
+    "/home/oliver/tmp/robomimic_square_demospeedup_1to5_scratch_20261010/seed_search_adatempo_best_20261012/100044/new_1to5/eval_log.json",
+    "/home/oliver/tmp/robomimic_square_demospeedup_1to5_scratch_20261010/seed_search_adatempo_best_20261012/100044/adatempo/eval_log.json"
+  ],
+  "qualitative_selection": true,
+  "selection_note": "Chosen qualitative same-seed example; original aggregate results unchanged.",
+  "output": "work/video_dashboard_unification_20261012/square-seed100044-can-style.mp4",
+  "render_version": "20261012-can-dashboard",
+  "best_selected_SOD_index": 3,
+  "chart_provenance": "Existing demo_0 offline schedules mapped to selected rollout duration, not measured online speed",
+  "aggregate_stats_removed_from_visual_only": true
+}

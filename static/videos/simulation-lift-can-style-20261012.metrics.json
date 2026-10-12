@@ -1,0 +1,44 @@
+{
+  "task": "lift",
+  "environment_seed": 100208,
+  "methods": [
+    "Official DP",
+    "DP + DemoSpeedup",
+    "SAIL (DP)",
+    "DP + AdaTempo"
+  ],
+  "video_paths": [
+    "/home/oliver/tmp/robomimic_reference_videos_20260917/lift_baseline/media/jge9rngm.mp4",
+    "/home/oliver/tmp/robomimic_reference_videos_20260917/lift_demospeedup/media/bqctq42v.mp4",
+    "/home/oliver/tmp/robomimic_lift_demospeedup_1to5_scratch_20261010/video_selected/media/rtrdj2od.mp4",
+    "/home/oliver/tmp/robomimic_reference_videos_20260917/lift_adatempo/media/f4a8j532.mp4"
+  ],
+  "actual_methods": [
+    "Official DP",
+    "DP + DemoSpeedup (2\u00d7/4\u00d7)",
+    "DP + DemoSpeedup (1\u00d7/5\u00d7)",
+    "DP + AdaTempo"
+  ],
+  "display_alias_only": true,
+  "selected_completion_seconds": [
+    2.15,
+    1.1,
+    1,
+    0.75
+  ],
+  "selected_SOD": [
+    1.123953488372093,
+    2.196818181818182,
+    2.4165,
+    3.222
+  ],
+  "source_demonstration_mean_length": 48.33,
+  "new_policy_eval100_success_rate": 1,
+  "new_policy_eval100_SOD": 2.2615816565278424,
+  "curves": "demo_0 offline training speed profiles; not online speed measurements",
+  "output": "/Users/oliver/Documents/Codex/2026-07-14/ssh-agilex-10-162-146-118/work/video_dashboard_unification_20261012/lift-can-style.mp4",
+  "render_version": "20261012-can-dashboard",
+  "best_selected_SOD_index": 3,
+  "chart_provenance": "Existing demo_0 offline schedules mapped to selected rollout duration, not measured online speed",
+  "aggregate_stats_removed_from_visual_only": true
+}

@@ -1,0 +1,5 @@
+.DS_Store
+**/.DS_Store
+
+# Local raw recordings; the website uses the rendered comparison videos.
+static/videos/videos/
