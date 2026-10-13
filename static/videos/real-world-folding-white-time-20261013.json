@@ -1,0 +1,52 @@
+{
+  "task": "Folding",
+  "output": "/Users/oliver/Documents/Codex/2026-07-14/ssh-agilex-10-162-146-118/work/real_world_three_20261013/real-world-folding-three-20261013.mp4",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "duration_s": 30.1,
+  "source_method_mapping": "User confirmed demo files represent DemoSpeedup; the two synthetic baseline edits are excluded.",
+  "timing_note": "Static time labels transcribed from AdaTempo.mp4, except Picking Cube DemoSpeedup which uses source-clip timing (0-6s, visible placement and withdrawal); its clip suffix was removed for presentation, not converted into a paper aggregate or an independently measured policy speedup. Original footage remains at 1x. These are not paper aggregate means.",
+  "inputs": [
+    {
+      "file": "folding_slow.mp4",
+      "role": "ACT",
+      "source_sha256": "3f5bf898ae3f74dfc93a27aa2f7a3090aad7dcaf912473447e6180e704efffcf",
+      "raw_cut_seconds": [
+        1.0,
+        29.6
+      ],
+      "reference_time_s": 28.6,
+      "freeze_output_time_s": 28.6,
+      "outcome": "Done"
+    },
+    {
+      "file": "folding_demo.mp4",
+      "role": "DemoSpeedup",
+      "source_sha256": "875e022c4cc6c9d6f7dd7f3ad45ea000244e2f2f27f6951886356b8f54dbfc50",
+      "raw_cut_seconds": [
+        1.0,
+        17.7
+      ],
+      "reference_time_s": 16.7,
+      "freeze_output_time_s": 16.7,
+      "outcome": "Failed"
+    },
+    {
+      "file": "folding_quick.mp4",
+      "role": "AdaTempo",
+      "source_sha256": "9321546c97691ddd353361782b53f5bc98376cc8f5d696c51601fceb7d505ee8",
+      "raw_cut_seconds": [
+        1.0,
+        14.6
+      ],
+      "reference_time_s": 13.6,
+      "freeze_output_time_s": 13.6,
+      "outcome": "Done"
+    }
+  ],
+  "sha256": "b5fa7a500c10f408afac6e009382a87c3e4c52cac6012647e1f477d5f4e3a6da",
+  "decode_validation": "passed"
+}

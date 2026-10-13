@@ -1,0 +1,52 @@
+{
+  "task": "Picking Cube",
+  "output": "/Users/oliver/Documents/Codex/2026-07-14/ssh-agilex-10-162-146-118/work/real_world_three_20261013/real-world-picking-cube-three-20261013.mp4",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "duration_s": 13.3,
+  "source_method_mapping": "User confirmed demo files represent DemoSpeedup; the two synthetic baseline edits are excluded.",
+  "timing_note": "Static time labels transcribed from AdaTempo.mp4, except Picking Cube DemoSpeedup which uses source-clip timing (0-6s, visible placement and withdrawal); its clip suffix was removed for presentation, not converted into a paper aggregate or an independently measured policy speedup. Original footage remains at 1x. These are not paper aggregate means.",
+  "inputs": [
+    {
+      "file": "picking_slow.mp4",
+      "role": "ACT",
+      "source_sha256": "b93c6c666f9c49cc740af5af7ca247a2c42b436e617d141db1158e1959d256ae",
+      "raw_cut_seconds": [
+        0.0,
+        11.8
+      ],
+      "reference_time_s": 11.2,
+      "freeze_output_time_s": 11.8,
+      "outcome": "Done"
+    },
+    {
+      "file": "picking_cube_demo.mp4",
+      "role": "DemoSpeedup",
+      "source_sha256": "659d708b95426dc07a3bbae963407a77082d1ab230dfdbfa78980d39934b6b18",
+      "raw_cut_seconds": [
+        0.0,
+        6.0
+      ],
+      "reference_time_s": 6.0,
+      "freeze_output_time_s": 6.0,
+      "outcome": "Done"
+    },
+    {
+      "file": "picking_quick.mp4",
+      "role": "AdaTempo",
+      "source_sha256": "33420b57c1e57628ef2a6f2a50d1666a7459d84ebd31b90e63835d30f6add4f7",
+      "raw_cut_seconds": [
+        0.0,
+        6.4
+      ],
+      "reference_time_s": 6.0,
+      "freeze_output_time_s": 6.4,
+      "outcome": "Done"
+    }
+  ],
+  "sha256": "e9973347cf1aeefc61487f08497810d076fc2cf4547da7071b8ea6e95f65fe7a",
+  "decode_validation": "passed"
+}

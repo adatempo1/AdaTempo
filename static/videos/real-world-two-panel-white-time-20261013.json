@@ -1,0 +1,74 @@
+[
+  {
+    "task": "Pouring",
+    "output": "/Users/oliver/Documents/Codex/2026-07-14/ssh-agilex-10-162-146-118/work/real_world_white_time_20261013/real-world-pouring-v2.mp4",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "duration_s": 34.7,
+    "playback_speed": 1,
+    "reference": "/Users/oliver/Desktop/Adatempo/static/videos/AdaTempo.mp4",
+    "timing_note": "Static task time labels copied from the long reference, NOT recomputed from recording duration. Raw recordings contain extra waits and return motions; visual freeze follows completion, including a settling margin.",
+    "speedup_vs_ACT": 1.7,
+    "inputs": [
+      {
+        "file": "pouring_slow.mp4",
+        "role": "ACT",
+        "raw_start_s": 0,
+        "raw_freeze_frame_s": 33.16666666666667,
+        "freeze_on_output_s": 33.2,
+        "reference_task_time_s": 32.6,
+        "final_outcome": "Done"
+      },
+      {
+        "file": "pouring_quick.mp4",
+        "role": "AdaTempo",
+        "raw_start_s": 0,
+        "raw_freeze_frame_s": 19.366666666666664,
+        "freeze_on_output_s": 19.4,
+        "reference_task_time_s": 18.9,
+        "final_outcome": "Done"
+      }
+    ],
+    "sha256": "06d3c7735aa49b671aeb333025829b79d30f8b986bde5108217eaf511f2c3079",
+    "decode_validation": "passed"
+  },
+  {
+    "task": "Stacking Cups",
+    "output": "/Users/oliver/Documents/Codex/2026-07-14/ssh-agilex-10-162-146-118/work/real_world_white_time_20261013/real-world-stacking-cups-v2.mp4",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "duration_s": 19.4,
+    "playback_speed": 1,
+    "reference": "/Users/oliver/Desktop/Adatempo/static/videos/AdaTempo.mp4",
+    "timing_note": "Static task time labels copied from the long reference, NOT recomputed from recording duration. Raw recordings contain extra waits and return motions; visual freeze follows completion, including a settling margin.",
+    "speedup_vs_ACT": 2.3,
+    "inputs": [
+      {
+        "file": "stack_cups_slow.mp4",
+        "role": "ACT",
+        "raw_start_s": 1.0,
+        "raw_freeze_frame_s": 18.866666666666664,
+        "freeze_on_output_s": 17.9,
+        "reference_task_time_s": 17.9,
+        "final_outcome": "Done"
+      },
+      {
+        "file": "stack_cups_quick.mp4",
+        "role": "AdaTempo",
+        "raw_start_s": 1.0,
+        "raw_freeze_frame_s": 8.766666666666667,
+        "freeze_on_output_s": 7.800000000000001,
+        "reference_task_time_s": 7.8,
+        "final_outcome": "Done"
+      }
+    ],
+    "sha256": "38a3d09c5e04186fa97425c874971425329180d69b5314a0fc89857d1d9b5ff3",
+    "decode_validation": "passed"
+  }
+]

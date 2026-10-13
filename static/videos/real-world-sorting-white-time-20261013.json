@@ -1,0 +1,52 @@
+{
+  "task": "Sorting",
+  "output": "/Users/oliver/Documents/Codex/2026-07-14/ssh-agilex-10-162-146-118/work/real_world_three_20261013/real-world-sorting-three-20261013.mp4",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "duration_s": 34.5,
+  "source_method_mapping": "User confirmed demo files represent DemoSpeedup; the two synthetic baseline edits are excluded.",
+  "timing_note": "Static time labels transcribed from AdaTempo.mp4, except Picking Cube DemoSpeedup which uses source-clip timing (0-6s, visible placement and withdrawal); its clip suffix was removed for presentation, not converted into a paper aggregate or an independently measured policy speedup. Original footage remains at 1x. These are not paper aggregate means.",
+  "inputs": [
+    {
+      "file": "sorting_slow.mp4",
+      "role": "ACT",
+      "source_sha256": "3d2a803d896a12c2f07588bf74f9aadc2105942f0b083f2377b4545edc1a8dbe",
+      "raw_cut_seconds": [
+        0.0,
+        33.0
+      ],
+      "reference_time_s": 30.3,
+      "freeze_output_time_s": 33.0,
+      "outcome": "3/4 Success"
+    },
+    {
+      "file": "sorting_demo.mp4",
+      "role": "DemoSpeedup",
+      "source_sha256": "0e7800d9a3f7e0e68366d9c55b6f5a636a532cef153cedd9f57a1f220e88667d",
+      "raw_cut_seconds": [
+        0.0,
+        18.2
+      ],
+      "reference_time_s": 13.2,
+      "freeze_output_time_s": 18.2,
+      "outcome": "3/4 Success"
+    },
+    {
+      "file": "sorting_quick.mp4",
+      "role": "AdaTempo",
+      "source_sha256": "6bc914f6780b663bfa3a8d522a87979a3d283c119f31622939a9d9eec76f1415",
+      "raw_cut_seconds": [
+        0.0,
+        19.0
+      ],
+      "reference_time_s": 17.4,
+      "freeze_output_time_s": 19.0,
+      "outcome": "Done"
+    }
+  ],
+  "sha256": "b06750690e8c3e730e7fffca58d84202bba7e39184f6f9108ef80ed4300c7505",
+  "decode_validation": "passed"
+}
