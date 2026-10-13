@@ -117,6 +117,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.hero-body > .media-caption {
+  margin-top: 1.5rem;
+}
+
 
 /* Publication Content Styling */
 .publication-title {

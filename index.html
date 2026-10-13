@@ -88,7 +88,7 @@
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css?v=20261012-matched-image-width">
+  <link rel="stylesheet" href="static/css/index.css?v=20261013-caption-spacing">
   
   <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -165,7 +165,7 @@
     "image": "https://arxiv.org/html/2610.02706v1/method_pipeline.png",
     "keywords": ["AdaTempo", "relative tempo", "robot manipulation", "imitation learning", "visuomotor policies"],
     "abstract": "Visuomotor policies trained via imitation learning often inherit the unnecessarily slow timing of teleoperated demonstrations. Yet uniform speedup is unreliable because different phases of a manipulation task tolerate acceleration differently. In this work, we introduce AdaTempo, a self-supervised method that accelerates visuomotor policies by exploiting shared relative-tempo structure in demonstrations. AdaTempo establishes phase correspondence, aggregates the aligned relative tempo into a consensus, and maps it to a continuous speedup profile used to resample demonstrations into accelerated training trajectories. Training standard policies such as ACT or Diffusion Policy on these resampled trajectories directly embeds the desired tempo in the learned behavior, without runtime tempo selection or online retiming. Extensive evaluations show that AdaTempo achieves up to a 3.57× speedup and yields a stronger success–speed trade-off than the original policies and representative acceleration baselines.",
-    "citation": "@article{cao2026adatempo,\n  title={AdaTempo: Learning Shared Relative Tempo from Demonstrations for Faster Robot Manipulation},\n  author={Cao, Jiale and Niu, Yike and Xue, Zhengrong and Xu, Huazhe},\n  journal={arXiv preprint arXiv:2610.02706},\n  year={2026},\n  url={https://arxiv.org/abs/2610.02706}\n}",
+    "citation": "@article{cao2026adatempo,\n  title={AdaTempo: Learning Shared Relative Tempo from Demonstrations for Faster Robot Manipulation},\n  author={Jiale Cao and Yike Niu and Zhengrong Xue and Huazhe Xu},\n  journal={arXiv preprint arXiv:2610.02706},\n  year={2026},\n  url={https://arxiv.org/abs/2610.02706}\n}",
     "isAccessibleForFree": true,
     "license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
     "mainEntity": {
@@ -339,7 +339,7 @@
       <video poster="static/images/adatempo-real-world.jpg" id="tree" autoplay controls muted loop playsinline height="100%" preload="metadata" style="border: 1px solid rgba(0, 0, 0, 0.12); border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);">
         <source src="static/videos/AdaTempo.mp4" type="video/mp4">
       </video>
-      <h2 class="subtitle explanatory-text">
+      <h2 class="subtitle explanatory-text media-caption">
         AdaTempo learns phase-dependent acceleration from shared demonstration timing, then trains standard ACT and Diffusion Policy models on resampled trajectories.
       </h2>
     </div>
@@ -370,9 +370,9 @@
 <section class="hero matched-media-section">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <h2 class="title is-3 abstract-title has-text-centered" style="color: #000000; font-size: 2.5rem; margin-bottom: 0.75rem !important; padding-bottom: 0;">Method</h2>
+      <h2 class="title is-3 abstract-title has-text-centered" style="color: #000000; font-size: 2.5rem; margin-bottom: 1.5rem !important; padding-bottom: 0;">Method</h2>
       <img src="static/images/adatempo-pipeline.png" alt="AdaTempo offline resampling pipeline" loading="lazy" style="display: block; width: 100%; height: auto;"/>
-      <h2 class="subtitle explanatory-text">
+      <h2 class="subtitle explanatory-text media-caption">
         AdaTempo aligns demonstrations to a shared task phase, combines their relative tempo into a confidence-weighted consensus, and derives a continuous speedup profile. It then resamples demonstrations to train standard ACT or Diffusion Policy models, enabling faster execution without runtime tempo selection or online retiming.
       </h2>
     </div>
@@ -469,7 +469,7 @@
       </div>
       <pre id="bibtex-code"><code>@article{cao2026adatempo,
   title={AdaTempo: Learning Shared Relative Tempo from Demonstrations for Faster Robot Manipulation},
-  author={Cao, Jiale and Niu, Yike and Xue, Zhengrong and Xu, Huazhe},
+  author={Jiale Cao and Yike Niu and Zhengrong Xue and Huazhe Xu},
   journal={arXiv preprint arXiv:2610.02706},
   year={2026},
   url={https://arxiv.org/abs/2610.02706}
