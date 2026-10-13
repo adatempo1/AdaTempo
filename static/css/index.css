@@ -121,6 +121,23 @@ body {
   margin-top: 1.5rem;
 }
 
+.adatempo-brand {
+  white-space: nowrap;
+}
+
+.adatempo-brand img {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+  margin-right: 0.2em;
+  vertical-align: -0.12em;
+}
+
+.adatempo-brand strong {
+  font-weight: 700;
+  color: inherit;
+}
+
 
 /* Publication Content Styling */
 .publication-title {
