@@ -17,7 +17,7 @@
         if (index) {
           const brand = document.createElement('span');
           brand.className = 'adatempo-brand';
-          if (node.parentElement.closest('.media-caption')) {
+          if (node.parentElement.closest('.media-caption, .task-video-caption')) {
             const icon = document.createElement('img');
             icon.src = 'static/images/adatempo-favicon-v3.png';
             icon.alt = '';
