@@ -1,5 +1,23 @@
+/* Open-source serif alternative for a Claude-like reading style. */
+@font-face {
+  font-family: 'Lora';
+  src: url('../fonts/lora/Lora-Variable.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('../fonts/lora/Lora-Italic-Variable.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 /* Modern CSS Variables for consistent theming */
 :root {
+  --font-prose: 'Lora', Georgia, 'Times New Roman', serif;
   --primary-color: #2563eb;
   --primary-hover: #1d4ed8;
   --secondary-color: #64748b;
@@ -25,17 +43,26 @@
 
 /* Smooth scrolling for better UX */
 html {
+  font-family: var(--font-prose);
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-prose);
   color: var(--text-primary);
   line-height: 1.6;
   font-size: 16px;
   background-color: var(--background-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+.button,
+input,
+select,
+textarea {
+  font-family: var(--font-prose) !important;
 }
 
 
@@ -114,7 +141,7 @@ body {
 }
 
 .teaser {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-prose);
 }
 
 .hero-body > .media-caption {
@@ -141,7 +168,7 @@ body {
 
 /* Publication Content Styling */
 .publication-title {
-    font-family: 'Inter', sans-serif !important;
+    font-family: var(--font-prose) !important;
     font-weight: 800 !important;
     color: var(--text-primary) !important;
     margin-bottom: 2rem !important;
@@ -172,7 +199,7 @@ body {
 }
 
 .publication-authors {
-    font-family: 'Inter', sans-serif !important;
+    font-family: var(--font-prose) !important;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
@@ -336,7 +363,7 @@ body {
 
 /* Section Titles */
 .title.is-3 {
-  font-family: 'Inter', sans-serif !important;
+  font-family: var(--font-prose) !important;
   font-weight: 700 !important;
   color: var(--text-primary);
   margin-bottom: 2rem !important;
@@ -690,7 +717,7 @@ code {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-prose);
 }
 
 .more-works-btn:hover {
