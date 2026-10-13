@@ -17,13 +17,16 @@
         if (index) {
           const brand = document.createElement('span');
           brand.className = 'adatempo-brand';
-          const icon = document.createElement('img');
-          icon.src = 'static/images/adatempo-favicon-v3.png';
-          icon.alt = '';
-          icon.setAttribute('aria-hidden', 'true');
+          if (node.parentElement.closest('.media-caption')) {
+            const icon = document.createElement('img');
+            icon.src = 'static/images/adatempo-favicon-v3.png';
+            icon.alt = '';
+            icon.setAttribute('aria-hidden', 'true');
+            brand.append(icon);
+          }
           const name = document.createElement('strong');
           name.textContent = 'AdaTempo';
-          brand.append(icon, name);
+          brand.append(name);
           fragment.append(brand);
         }
         fragment.append(document.createTextNode(part));
